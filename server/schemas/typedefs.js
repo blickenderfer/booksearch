@@ -1,4 +1,4 @@
-const typedefs = `
+const typeDefs = `
     type User {
         _id: ID
         username: String
@@ -36,3 +36,5 @@ const typedefs = `
         removeBook(bookId: ID): User 
     }
 `
+
+module.exports = typeDefs;
